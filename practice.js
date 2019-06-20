@@ -14,6 +14,11 @@
   Then alert your name using dot notation.
 */
 
+let me = {
+  name: "Ismail",
+  age: 28,
+}
+// alert(me.name);
 //Code here
 
 ////////// PROBLEM 2 //////////
@@ -24,6 +29,15 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: "maroon 5",
+  food: "Pizza",
+  person: "Drake",
+  book: "The E-Myth",
+  movie: "Piliot",
+  holiday: "Christmas"
+}
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -32,12 +46,17 @@
 
 //Code here
 
+favoriteThings.car = "BMW";
+favoriteThings.brand = "SBD";
+
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
@@ -48,6 +67,12 @@
   Set the value of that key to 'chapstick'.
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
+let backPack = {
+
+}
+let item = "firstPocket";
+backPack[item] = "chapstick";
+backPack.color = "red";
 
 //Code here
 
@@ -55,6 +80,7 @@
   After you do the above, alert your entire backPack object.
 */
 
+// alert(backPack);
 //Code here
 
 /*
@@ -62,6 +88,7 @@ You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
+// console.log(backPack);
 
 //Code here
 
@@ -84,7 +111,11 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
+user2.name = "Bryan G. Smith";
+user2.email = "bryan.smith@devmounta.in";
 //Code Here
+
+
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
